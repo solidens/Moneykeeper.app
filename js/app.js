@@ -85,3 +85,25 @@ appData.chooseIncome();
 for (const key in appData) {
     console.log("Наша программа включает в себя данные: " + " - " + key );    
     }
+
+let startButton = document.getElementById("start"),
+    budgetValue = document.getElementsByClassName("budget-value"),
+    daybudgetValue = document.getElementsByClassName("daybudget-value"),
+    levelValue = document.getElementsByClassName("level-value"),
+    expensesValue = document.getElementsByClassName("expenses-value"),
+    optionalExpensesValue = document.getElementsByClassName("optionalexpenses-value"),
+    incomeValue = document.getElementsByClassName("income-value"),
+    monthSavingsValue = document.getElementsByClassName("monthsavings-value"),
+    yearsavingsValue = document.getElementsByClassName("yearsavings-value"),
+    expensesItemInput = document.getElementsByClassName("expenses-item"),
+    approveButtonExpenses = document.getElementsByTagName("button")[0],
+    approveButtonOptional = document.getElementsByTagName("button")[1],
+    calculateButtonBudget = document.getElementsByTagName("button")[2],
+    optionalExpensesItem = document.querySelectorAll(".optionalexpenses-item"),
+    chooseIncome = document.querySelector(".choose-income"),
+    checkSavings = document.querySelector("#savings"),
+    chooseSum = document.querySelector(".choose-sum"),
+    choosePercent = document.querySelector(".choose-percent"),
+    yearValue = document.querySelector(".year-value"),
+    monthValue = document.querySelector(".month-value"),
+    dayValue = document.querySelector(".day-value");
